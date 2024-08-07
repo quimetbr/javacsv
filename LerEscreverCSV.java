@@ -38,7 +38,7 @@ public class LerEscreverCSV {
             }
             System.out.println("Linhas encontradas: " + i);;
         } catch (FileNotFoundException e) {
-            System.out.println("Arquivo não encontrado");
+            System.out.println("Arquivo não encontrado!");
         } catch (IOException e) {
             System.out.println("IO error :\n" + e.getMessage());           
         } finally {
